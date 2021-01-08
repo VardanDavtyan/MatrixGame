@@ -1,0 +1,35 @@
+.cell:hover {
+   background-color: lemonchiffon;
+}
+
+.UIPanel {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: row;
+   border: 1px solid grey;
+   margin-bottom: 10px;
+}
+
+.panel1, .panel2, .panel3, .panel4 {
+   width: 25%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+*::-webkit-scrollbar {
+   display: none;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.startBtn:hover {
+   background-color: rgb(0, 133, 209);
+   color: rgba(255, 255, 255, 0.8);
+}
